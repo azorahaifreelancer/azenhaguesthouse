@@ -1,0 +1,17 @@
+.welcome-message .wrap-info .arrow-nav .fa-angle-down:before {
+  content: "\f111";
+  font-size: 30px;
+  color: #f7981d;
+  margin-left: 2px;
+}
+
+.banner .arrow-nav {
+  background-color: #fff;
+  border: 2px solid black;
+}
+.banner .arrow-nav i {
+  line-height: 69px;
+}
+.banner .arrow-nav:hover {
+  background: #f7981d;
+}

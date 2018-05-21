@@ -32,6 +32,7 @@
 <link rel="icon" href="images/favicon.png" type="image/x-icon">
 
 <link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="override.css">
 
 </head>
 
@@ -66,9 +67,8 @@
 
       <ul class="nav navbar-nav">
         <li><a href="index.php" style="text-transform: uppercase;">Home </a></li>
-        <li><a href="rooms-tariff.php" style="text-transform: uppercase;">Quartos</a></li>
+        <li><a href="quartos.php" style="text-transform: uppercase;">Quartos</a></li>
         <li><a href="introduction.php" style="text-transform: uppercase;">Casa</a></li>
-        <li><a href="gallery.php" style="text-transform: uppercase;">Posts</a></li>
         <li><a href="gallery.php" style="text-transform: uppercase;">Galeria</a></li>
         <li><a href="contact.php" style="text-transform: uppercase;">Contactos</a></li>
       </ul>

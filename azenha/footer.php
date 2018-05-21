@@ -8,15 +8,14 @@
                 <div class="col-sm-5">
                     <h4>Azenha GuestHouse</h4>
                     <p>A apenas 5 min a pé da Lagoa e do Mar e a 10min dos restaurantes, bares, supermercados e outros serviços da Vila. O edifício, uma antiga azenha que servia de apoio à população para a moagem dos cereais, foi totalmente renovado e apresenta um toque de modernidade, embora mantendo a sua traça original. A Guest House oferece 4 quartos com terraço e uma sala comum com esplanada, onde poderá desfrutar calmamente do seu pequeno-almoço. Inserida numa propriedade de um hectare onde a natureza predomina, a Azenha Gest House é o local certo para relaxar e desfrutar de momentos únicos, num espaço onde o campo e a Lagoa se unem em perfeita harmonia.</p>
-                </div>              
-                 
+                </div>
+
                  <div class="col-sm-3">
-                    <h4>Quick Links</h4>
+                    <h4>Links Úteis</h4>
                     <ul class="list-unstyled">
-                        <li><a href="rooms-tariff.php">Rooms & Tariff</a></li>        
-                        <li><a href="introduction.php">Introduction</a></li>
-                        <li><a href="gallery.php">Gallery</a></li>
-                        <li><a href="tour.php">Tour Packages</a></li>
+                        <li><a href="quartos.php">Quartos</a></li>
+                        <li><a href="casa.php">Casa</a></li>
+                        <li><a href="galeria.php">Galeria</a></li>
                         <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </div>
@@ -38,14 +37,14 @@
                     </div>
                 </div>
             </div>
-            <!--/.row--> 
+            <!--/.row-->
         </div>
-        <!--/.container-->    
-    
-    <!--/.footer-bottom--> 
+        <!--/.container-->
+
+    <!--/.footer-bottom-->
 </footer>
 
-<div class="text-center copyright">Powered by <a href="http://thebootstrapthemes.com">thebootstrapthemes.com</a></div>
+<div class="text-center copyright"><a href="terms.php">termos e condições</a> - <a href="policy.php">politicas de privacidade</a> - <a href="data.php">proteção de dados</a></div>
 
 <a href="#home" class="toTop scroll"><i class="fa fa-angle-up"></i></a>
 
@@ -61,7 +60,7 @@
     <a class="prev">‹</a>
     <a class="next">›</a>
     <a class="close">×</a>
-    <!-- The modal dialog, which will be used to wrap the lightbox content -->    
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->
 </div>
 
 
@@ -69,43 +68,19 @@
 
 
 <script src="assets/jquery.js"></script>
-
 <!-- wow script -->
 <script src="assets/wow/wow.min.js"></script>
-
 <!-- uniform -->
 <script src="assets/uniform/js/jquery.uniform.js"></script>
-
-
 <!-- boostrap -->
 <script src="assets/bootstrap/js/bootstrap.js" type="text/javascript" ></script>
-
 <!-- jquery mobile -->
 <script src="assets/mobile/touchSwipe.min.js"></script>
-
 <!-- jquery mobile -->
 <script src="assets/respond/respond.js"></script>
-
 <!-- gallery -->
 <script src="assets/gallery/jquery.blueimp-gallery.min.js"></script>
-
-
 <!-- custom script -->
 <script src="assets/script.js"></script>
-
-
-
-
-
-
-
-
-
-
 </body>
 </html>
-
-
-
-
-
