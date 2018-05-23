@@ -14,26 +14,22 @@
                     <h4>Links Úteis</h4>
                     <ul class="list-unstyled">
                         <li><a href="quartos.php">Quartos</a></li>
-                        <li><a href="casa.php">Casa</a></li>
+                        <li><a href="casa.php">A Casa</a></li>
                         <li><a href="galeria.php">Galeria</a></li>
-                        <li><a href="contact.php">Contact</a></li>
+                        <li><a href="contact.php">Contactos</a></li>
+                        <li><a href="contact.php">Termos e Condições</a></li>
+                        <li><a href="contact.php">Politica de Privacidade</a></li>
+                        <li><a href="contact.php">Privacidade de Dados</a></li>
                     </ul>
                 </div>
                  <div class="col-sm-4 subscribe">
-                    <h4>Subscription</h4>
-                    <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Enter email id here">
-                    <span class="input-group-btn">
-                    <button class="btn btn-default" type="button">Get Notify</button>
-                    </span>
-                    </div>
+                    <h4>Contactos</h4>
                     <div class="social">
                     <a href="#"><i class="fa fa-facebook-square" data-toggle="tooltip" data-placement="top" data-original-title="facebook"></i></a>
                     <a href="#"><i class="fa fa-instagram"  data-toggle="tooltip" data-placement="top" data-original-title="instragram"></i></a>
+                    <a href="#"><i class="fa fa-map" data-toggle="tooltip" data-placement="top" data-original-title="twitter"></i></a>
                     <a href="#"><i class="fa fa-twitter-square" data-toggle="tooltip" data-placement="top" data-original-title="twitter"></i></a>
-                    <a href="#"><i class="fa fa-pinterest-square" data-toggle="tooltip" data-placement="top" data-original-title="pinterest"></i></a>
-                    <a href="#"><i class="fa fa-tumblr-square" data-toggle="tooltip" data-placement="top" data-original-title="tumblr"></i></a>
-                    <a href="#"><i class="fa fa-youtube-square" data-toggle="tooltip" data-placement="top" data-original-title="youtube"></i></a>
+                    <p>cordenadas<p>
                     </div>
                 </div>
             </div>

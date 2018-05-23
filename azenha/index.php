@@ -6,8 +6,8 @@
     <div class="welcome-message">
         <div class="wrap-info">
             <div class="information">
-                <h1  class="animated fadeInDown">Azenha GuestHouse</h1>
-                <p class="animated fadeInUp">Turismo Rural - No centro da Natureza - Foz do Arelho</p>
+                <h1  class="animated fadeInDown">Foz do Arelho</h1>
+                <p class="animated fadeInUp">Turismo Rural</p>
             </div>
             <a href="#information" class="arrow-nav scroll wowload fadeInDownBig"><i class="fa fa-angle-down"></i></a>
         </div>
@@ -38,8 +38,10 @@
         <div class="form-group">
             <textarea class="form-control"  placeholder="Messagem" rows="4" name="mensagem"></textarea>
         </div>
-        <input type="checkbox" name="checkbox" value="check" id="agree" />Li e aceito os<a href="terms.php"> Termos e Condições</a> e a <a href="policy.php">  Política de Privacidade.</a><br><br>
-        <input type="checkbox" name="checkbox" value="check" id="agree" />Li e aceito os termos da<a href="data.php"> Proteção de dados.</a><br><br><br>
+        <div class="form-group">
+        <input type="checkbox" name="checkbox" value="check" id="agree" /><span class="aceito">Li e aceito os<a href="terms.php"> Termos e Condições</a> e a <a href="policy.php">  Política de Privacidade.</a><br><br></span>
+        <input type="checkbox" name="checkbox" value="check" id="agree" /><span class="aceito">Li e aceito os termos da<a href="data.php"> Proteção de dados.</a><br><br><br></span>
+        </div>
 
         <button class="btn btn-default" type="submit" name="submit">Enviar</button>
     </form>
@@ -57,16 +59,16 @@
             <!-- RoomCarousel -->
             <div id="RoomCarousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
-                <div class="item active"><img src="images/photos/8.jpg" class="img-responsive" alt="slide"></div>
-                <div class="item  height-full"><img src="images/photos/9.jpg"  class="img-responsive" alt="slide"></div>
-                <div class="item  height-full"><img src="images/photos/10.jpg"  class="img-responsive" alt="slide"></div>
+                <div class="item active"><img src="images/quartos/azul-1.jpg" class="img-responsive" alt="slide"></div>
+                <div class="item  height-full"><img src="images/quartos/amarelo-1.jpg"  class="img-responsive" alt="slide"></div>
+                <div class="item  height-full"><img src="images/quartos/verde-1.jpg"  class="img-responsive" alt="slide"></div>
                 </div>
                 <!-- Controls -->
                 <a class="left carousel-control" href="#RoomCarousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
                 <a class="right carousel-control" href="#RoomCarousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
             </div>
             <!-- RoomCarousel-->
-            <div class="caption">Quartos<a href="rooms-tariff.php" class="pull-right"><i class="fa fa-edit"></i></a></div>
+            <div class="caption">Quartos<a href="quartos.php" class="pull-right"><i class="fa fa-bed"></i></a></div>
         </div>
 
 
@@ -74,16 +76,17 @@
             <!-- RoomCarousel -->
             <div id="TourCarousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
-                <div class="item active"><img src="images/photos/6.jpg" class="img-responsive" alt="slide"></div>
-                <div class="item  height-full"><img src="images/photos/3.jpg"  class="img-responsive" alt="slide"></div>
-                <div class="item  height-full"><img src="images/photos/4.jpg"  class="img-responsive" alt="slide"></div>
+                <div class="item active"><img src="images/galeria/1.jpg" class="img-responsive" alt="slide"></div>
+                <div class="item  height-full"><img src="images/galeria/4.jpg"  class="img-responsive" alt="slide"></div>
+                <div class="item  height-full"><img src="images/galeria/5.jpg"  class="img-responsive" alt="slide"></div>
+                <div class="item  height-full"><img src="images/galeria/12.jpg"  class="img-responsive" alt="slide"></div>
                 </div>
                 <!-- Controls -->
                 <a class="left carousel-control" href="#TourCarousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
                 <a class="right carousel-control" href="#TourCarousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
             </div>
             <!-- RoomCarousel-->
-            <div class="caption">Casa<a href="gallery.php" class="pull-right"><i class="fa fa-edit"></i></a></div>
+            <div class="caption">A Casa<a href="gallery.php" class="pull-right"><i class="fa fa-home"></i></a></div>
         </div>
 
 
@@ -91,16 +94,17 @@
             <!-- RoomCarousel -->
             <div id="FoodCarousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
-                <div class="item active"><img src="images/photos/1.jpg" class="img-responsive" alt="slide"></div>
-                <div class="item  height-full"><img src="images/photos/2.jpg"  class="img-responsive" alt="slide"></div>
-                <div class="item  height-full"><img src="images/photos/5.jpg"  class="img-responsive" alt="slide"></div>
+                <div class="item active"><img src="images/galeria/10.jpg" class="img-responsive" alt="slide"></div>
+                <div class="item  height-full"><img src="images/galeria/9.jpg"  class="img-responsive" alt="slide"></div>
+                <div class="item  height-full"><img src="images/galeria/7.jpg"  class="img-responsive" alt="slide"></div>
+                <div class="item  height-full"><img src="images/galeria/3.jpg"  class="img-responsive" alt="slide"></div>
                 </div>
                 <!-- Controls -->
                 <a class="left carousel-control" href="#FoodCarousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
                 <a class="right carousel-control" href="#FoodCarousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
             </div>
             <!-- RoomCarousel-->
-            <div class="caption">Galeria<a href="gallery.php" class="pull-right"><i class="fa fa-edit"></i></a></div>
+            <div class="caption">Galeria<a href="gallery.php" class="pull-right"><i class="fa fa-galery"></i></a></div>
         </div>
     </div>
 </div>

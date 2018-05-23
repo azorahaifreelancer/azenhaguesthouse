@@ -1,6 +1,6 @@
 .welcome-message .wrap-info .arrow-nav .fa-angle-down:before {
   content: "\f111";
-  font-size: 30px;
+  font-size: 50px;
   color: #f7981d;
   margin-left: 2px;
 }
@@ -10,8 +10,45 @@
   border: 2px solid black;
 }
 .banner .arrow-nav i {
-  line-height: 69px;
+  line-height: 110% !important;
 }
 .banner .arrow-nav:hover {
   background: #f7981d;
+}
+
+.services .caption .fa-bed:before {
+  font-family: 'icomoon' !important;
+  content: "\e905";
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+}
+.services .caption .fa-home:before {
+  font-family: 'icomoon' !important;
+  content: "\e901";
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+}
+.services .caption .fa-galery:before {
+  font-family: 'icomoon' !important;
+  content: "\e900";
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+}
+
+.aceito {
+  font-size: 10px !important;
+}
+
+.aceito a{
+  font-size: 10px !important;
+  color: #999;
+  font-weight: bold;
+}
+
+.aceito a:hover{
+  transition: color .75s ease-out 0s;
+  color: #f7981d !important;
 }
