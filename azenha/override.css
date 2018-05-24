@@ -9,9 +9,11 @@
   background-color: #fff;
   border: 2px solid black;
 }
+
 .banner .arrow-nav i {
   line-height: 110% !important;
 }
+
 .banner .arrow-nav:hover {
   background: #f7981d;
 }
@@ -23,6 +25,7 @@
   height: 30px;
   font-size: 18px;
 }
+
 .services .caption .fa-home:before {
   font-family: 'icomoon' !important;
   content: "\e901";
@@ -30,6 +33,7 @@
   height: 30px;
   font-size: 18px;
 }
+
 .services .caption .fa-galery:before {
   font-family: 'icomoon' !important;
   content: "\e900";
@@ -42,13 +46,27 @@
   font-size: 10px !important;
 }
 
-.aceito a{
+.aceito a {
   font-size: 10px !important;
   color: #999;
   font-weight: bold;
 }
 
-.aceito a:hover{
+.aceito a:hover {
   transition: color .75s ease-out 0s;
   color: #f7981d !important;
+}
+
+@media (max-width: 767px) {
+  .banner .arrow-nav i {
+    line-height: 120% !important;
+  }
+  .banner .arrow-nav i:before {
+    font-size: 22px !important;
+    margin-left: 1px !important;
+  }
+  .navbar-nav>li>a {
+    text-align: center !important;
+    padding-left: 0 !important;
+  }
 }

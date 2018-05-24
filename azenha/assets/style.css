@@ -551,7 +551,11 @@ body::-webkit-scrollbar {
   }
   .banner .arrow-nav i {
     font-size: 2em;
-    line-height: 45px;
+    line-height: 120%;
+  }
+  .banner .arrow-nav i:before {
+    font-size: 22px;
+    margin-left: 1px;
   }
   .spacer {
     padding: 4em 0;
