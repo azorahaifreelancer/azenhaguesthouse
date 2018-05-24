@@ -6,9 +6,10 @@
 
   <div id="RoomDetails" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
-      <div class="item active"><img src="images/quartos/amarelo-1.jpg" class="img-responsive" alt="slide"></div>
-      <div class="item  height-full"><img src="images/quartos/amarelo-2.jpg"  class="img-responsive" alt="slide"></div>
-      <div class="item  height-full"><img src="images/quartos/amarelo-3.jpg"  class="img-responsive" alt="slide"></div>
+      <div class="item active"><img src="images/quartos/amarelo-1.jpg" class="img-responsive" alt="Yellow Beach"></div>
+      <div class="item height-full"><img src="images/quartos/amarelo-2.jpg" class="img-responsive" alt="Yellow Beach"></div>
+      <div class="item height-full"><img src="images/quartos/amarelo-3.jpg" class="img-responsive" alt="Yellow Beach"></div>
+      <div class="item height-full"><img src="images/quartos/amarelo-4.jpg" class="img-responsive" alt="Yellow Beach"></div>
       </div>
 
       <a class="left carousel-control" href="#RoomDetails" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>

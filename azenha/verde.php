@@ -6,9 +6,10 @@
 
   <div id="RoomDetails" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
-      <div class="item active"><img src="images/quartos/8.jpg" class="img-responsive" alt="slide"></div>
-      <div class="item  height-full"><img src="images/quartos/9.jpg"  class="img-responsive" alt="slide"></div>
-      <div class="item  height-full"><img src="images/quartos/10.jpg"  class="img-responsive" alt="slide"></div>
+      <div class="item active"><img src="images/quartos/verde-1.jpg" class="img-responsive" alt="slide"></div>
+      <div class="item  height-full"><img src="images/quartos/verde-2.jpg"  class="img-responsive" alt="slide"></div>
+      <div class="item  height-full"><img src="images/quartos/verde-3.jpg"  class="img-responsive" alt="slide"></div>
+      <div class="item  height-full"><img src="images/quartos/verde-4.jpg"  class="img-responsive" alt="slide"></div>
       </div>
 
       <a class="left carousel-control" href="#RoomDetails" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>

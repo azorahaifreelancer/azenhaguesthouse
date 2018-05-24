@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
- 
-    $(".scroll").click(function(event){   
+
+    $(".scroll").click(function(event){
     event.preventDefault();
     $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800,'swing');
     });
@@ -20,7 +20,7 @@ $(document).ready(function($) {
   $('.social i').tooltip('hide')
 });
 
-// 
+//
 
 var wow = new WOW(
   {
