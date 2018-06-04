@@ -9,6 +9,7 @@
 <link href='http://fonts.googleapis.com/css?family=Raleway:300,500,800' rel='stylesheet' type='text/css'>
 <!-- font awesome -->
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
 <!-- bootstrap -->
 <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
 <!-- uniform -->
@@ -50,7 +51,7 @@
       <ul class="nav navbar-nav">
         <li><a href="index.php" style="text-transform: uppercase;">Home </a></li>
         <li><a href="quartos.php" style="text-transform: uppercase;">Quartos</a></li>
-        <li><a href="introduction.php" style="text-transform: uppercase;">A Casa</a></li>
+        <li><a href="casa.php" style="text-transform: uppercase;">A Casa</a></li>
         <li><a href="gallery.php" style="text-transform: uppercase;">Galeria</a></li>
         <li><a href="https://www.facebook.com/azenhaguesthouse/" target="_blank" style="text-transform: uppercase;">Facebook</a></li>
         <li><a href="https://www.instagram.com/azenhaguesthouse_turismorural/" target="_blank" style="text-transform: uppercase;">Instagram</a></li>

@@ -57,6 +57,15 @@
   color: #f7981d !important;
 }
 
+.cdrcolor {
+  color: #f7981d;
+  font-weight: bold;
+}
+
+.enviar {
+  float: right;
+}
+
 @media (max-width: 767px) {
   .banner .arrow-nav i {
     line-height: 120% !important;

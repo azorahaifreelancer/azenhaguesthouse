@@ -1,7 +1,4 @@
 
-
-
-
 <footer class="spacer">
         <div class="container">
             <div class="row">
@@ -15,31 +12,36 @@
                         <li><a href="quartos.php">Quartos</a></li>
                         <li><a href="casa.php">A Casa</a></li>
                         <li><a href="galeria.php">Galeria</a></li>
+                        <li><a href="azul.php">Quarto Azul</a></li>
+                        <li><a href="amarelo.php">Quarto Amarelo</a></li>
+                        <li><a href="verde.php">Quarto Verde</a></li>
+                        <li><a href="vermelho.php">Quarto Vermelho</a></li>
                         <li><a href="terms.php">Termos e Condições</a></li>
                         <li><a href="policy.php">Politica de Privacidade</a></li>
-                        <li><a href="policy.php">Privacidade de Dados</a></li>
+                        <li><a href="condicoes.php">Condições de Reserva</a></li>
                     </ul>
                 </div>
                  <div class="col-sm-4 subscribe">
                     <h4>Contactos</h4>
-                      <i class="fa fa-home"></i>  7 Rua da Azenha
+                      <i class="fa fa-home"></i>  7  Rua da Azenha
                          <p>Foz do Arelho<br>
                          PT 2500 450<br>
-                      <a>cordenadas</a><br>
+                      <a>ver cordenadas gps</a><br>
                        LAT 39.431707
                       <br>
                        LNG -9.215150<br>
                         <i class="fa fa-phone"></i> 351 96 58 68 037<br>
-                        <i class="fa fa-envelope"></i> azenhaguesthouse@gmail.com
+                        <i class="fa fa-envelope"></i><a href="mailto:azenhaguesthouse@gmail.com">  azenhaguesthouse@gmail.com</a>
                     <div class="social">
-                    <a href="https://www.facebook.com/azenhaguesthouse/"><i class="fa fa-facebook-square" data-toggle="tooltip" data-placement="top" data-original-title="facebook"></i></a>
-                    <a href="https://www.instagram.com/azenhaguesthouse_turismorural/"><i class="fa fa-instagram"  data-toggle="tooltip" data-placement="top" data-original-title="instragram"></i></a>
+                      <a href="https://www.facebook.com/azenhaguesthouse/"><i class="fa fa-facebook-square" data-toggle="tooltip" data-placement="top" data-original-title="facebook"></i></a>
+                      <a href="https://www.instagram.com/azenhaguesthouse_turismorural/"><i class="fa fa-instagram"  data-toggle="tooltip" data-placement="top" data-original-title="instragram"></i></a>
+                      <a href="https://www.booking.com/hotel/pt/azenha-guest-house.pt-pt.html"><i class="fa fa-bold"  data-toggle="tooltip" data-placement="top" data-original-title="booking"></i></a>
                     </div>
                 </div>
             </div>
         </div>
 </footer>
-<div class="text-center copyright"><a href="terms.php">termos e condições</a> - <a href="policy.php">politicas de privacidade</a> - <a href="data.php">proteção de dados</a></div>
+<div class="text-center copyright">Powered by <a href="https://www.instagram.com/nuno____santos/">nsantos</a></div>
 <a href="#home" class="toTop scroll"><i class="fa fa-angle-up"></i></a>
 <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
 <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
@@ -67,5 +69,6 @@
 <script src="assets/gallery/jquery.blueimp-gallery.min.js"></script>
 <!-- custom script -->
 <script src="assets/script.js"></script>
+
 </body>
 </html>

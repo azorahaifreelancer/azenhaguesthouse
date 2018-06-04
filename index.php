@@ -15,7 +15,6 @@
 </div>
 <!-- banner-->
 
-
 <!-- reservation-information -->
 <div id="information" class="spacer reserve-info ">
 <div class="container">
@@ -37,15 +36,98 @@
             <input type="Phone" class="form-control" name="telefone"  placeholder="Telefone">
         </div>
         <div class="form-group">
+          <div class="row">
+          <div class="col-xs-6">
+          <select class="form-control" name="adultos">
+            <option>No. Adultos</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+          </select>
+          </div>
+          <div class="col-xs-6">
+          <select class="form-control" name="criancas">
+            <option>No. Crianças</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+          </select>
+          </div></div>
+      </div>
+      <div class="form-group">
+          <div class="row">
+          <div class="col-xs-4">
+            <select class="form-control col-sm-2" name="expiry-month" id="expiry-month">
+              <option>Dia</option>
+              <option value="01">1</option>
+              <option value="02">2</option>
+              <option value="03">3</option>
+              <option value="04">4</option>
+              <option value="05">5</option>
+              <option value="06">6</option>
+              <option value="07">7</option>
+              <option value="08">8</option>
+              <option value="09">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+            </select>
+          </div>
+          <div class="col-xs-4">
+            <select class="form-control col-sm-2" name="expiry-month" id="expiry-month">
+              <option>Mês</option>
+              <option value="Janeiro">Janeiro</option>
+              <option value="Fevereiro">Fevereiro</option>
+              <option value="Março">Março</option>
+              <option value="Abril">Abril</option>
+              <option value="Maio">Maio</option>
+              <option value="Junho">Junho</option>
+              <option value="Julho">Julho</option>
+              <option value="Agosto">Agosto</option>
+              <option value="Setembro">Setembro</option>
+              <option value="Outubro">Outubro</option>
+              <option value="Novembro">Novembro</option>
+              <option value="Dezembro">Dezembro</option>
+            </select>
+          </div>
+          <div class="col-xs-4">
+            <select class="form-control" name="expiry-year">
+              <option>Ano</option>
+              <option value="18">2018</option>
+              <option value="19">2019</option>
+            </select>
+          </div>
+        </div>
+      </div>
+        <div class="form-group mensagem">
             <textarea class="form-control"  placeholder="Messagem" rows="4" name="mensagem"></textarea>
         </div>
-
-        <div class="form-group">
-        <input type="checkbox" name="checkbox" value="check" id="agree" /><span class="aceito">Li e aceito os<a href="terms.php"> Termos e Condições</a> e a <a href="policy.php">  Política de Privacidade.</a><br><br></span>
-        <input type="checkbox" name="checkbox" value="check" id="agree" /><span class="aceito">Li e aceito os termos da<a href="policy.php"> Proteção de dados.</a><br><br><br></span>
+        <div class="form-group concordo">
+        <div class="politicas">
+          <input type="checkbox" name="checkbox" value="check" id="agree" /><span class="aceito">Li e aceito os<a href="terms.php"> Termos e Condições</a> e a <a href="policy.php">  Política de Privacidade.</a></span>
         </div>
-
-        <button class="btn btn-default" type="submit" name="submit">Enviar</button>
+        <div class="condicoes">
+          <input type="checkbox" name="checkbox" value="check" id="agree" /><span class="aceito">Li e aceito as<a href="condicoes.php"> Condições de Reserva</a></span>
+        </div>
+        </div>
+        <button class="btn btn-default enviar" type="submit" name="submit">Enviar</button>
     </form>
 </div>
 </div>
@@ -90,7 +172,7 @@
                 <a class="right carousel-control" href="#TourCarousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
             </div>
             <!-- RoomCarousel-->
-            <div class="caption">A Casa<a href="gallery.php" class="pull-right"><i class="fa fa-home"></i></a></div>
+            <div class="caption">A Casa<a href="casa.php" class="pull-right"><i class="fa fa-home"></i></a></div>
         </div>
         <div class="col-sm-4">
             <!-- RoomCarousel -->

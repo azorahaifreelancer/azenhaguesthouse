@@ -394,6 +394,24 @@ div.radio span.checked {
   box-shadow: none !important;
 }
 
+textarea.form-control {
+  max-height: 68px !important;
+  margin-bottom: -10px !important;
+}
+
+.condicoes {
+  max-height: 25px !important;
+}
+
+.concordo {
+  max-height: 68px !important;
+  margin-bottom: 0 !important;
+}
+
+.politicas {
+  max-height: 25px !important;
+}
+
 .form-control:focus {
   border: 1px solid #bbb;
 }
@@ -416,7 +434,8 @@ div.selector:hover {
 div.selector span {
   height: 36px;
   padding: 0;
-  background: url(../images/drop.png) right 9px no-repeat !important;
+  background: #ffffff;
+  /*background: url(../images/drop.png) right 9px no-repeat !important;*/
   color: #8d8d8d;
   width: 100% !important;
   margin-right: 20px;
