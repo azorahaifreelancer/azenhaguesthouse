@@ -4,12 +4,13 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <title>Azenha GuestHouse | Turismo Rural</title>
+<meta name="keywords" content="guesthouse, hotel, alojamento, turismo, turismo rural, estadia, ferias, quarto, quartos,  foz do arelho, portugal, obidos, caldas da rainha, leiria, lagoa de obidos, penedo furado, costa de prata" />
+<meta name="description" content="A Azenha Guest House fica a apenas 5 min a pé da Lagoa e do Mar e a 10min dos restaurantes, bares, supermercados e outros serviços da Vila. O edifício, uma antiga azenha que servia de apoio à população para a moagem dos cereais, foi totalmente renovado e apresenta um toque de modernidade, embora mantendo a sua traça original. A Guest House oferece 4 quartos com terraço e uma sala comum com esplanada." />
 <!-- Google fonts -->
 <link href='http://fonts.googleapis.com/css?family=Raleway:300,500,800|Old+Standard+TT' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Raleway:300,500,800' rel='stylesheet' type='text/css'>
 <!-- font awesome -->
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
 <!-- bootstrap -->
 <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
 <!-- uniform -->

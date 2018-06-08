@@ -3,7 +3,7 @@
     <div class="politicasDEprivacidade">
       <br><br><br>
       <p style="font-weight:bold;text-transform:uppercase;font-size:18px;">Política de Privacidade e Proteção de Dados</p>
-      <p>A Azenha GuestHouse, com nome comercial Azenha GuestHouse Unipessoal,lda – processa a sua informação pessoal de forma a garantir o cumprimento das normas do novo RGPD (Regulamento Geral de Proteção de Dados) que tem aplicação obrigatória a partir de 25 de Maio de 2018. Os nossos dados de identificação e contacto estão disponíveis neste website, que pode utilizar para realizar uma reserva ou colocar as suas questões. Estes dados de identificação irão também aparecer nas faturas e outros documentos de faturação e pagamento que enviamos/entregamos.</p><br><br>
+      <p>A Azenha GuestHouse processa a sua informação pessoal de forma a garantir o cumprimento das normas do novo RGPD (Regulamento Geral de Proteção de Dados) que tem aplicação obrigatória a partir de 25 de Maio de 2018. Os nossos dados de identificação e contacto estão disponíveis neste website, que pode utilizar para realizar uma reserva ou colocar as suas questões. Estes dados de identificação irão também aparecer nas faturas e outros documentos de faturação e pagamento que enviamos/entregamos.</p><br><br>
 
       <p style="font-weight:bold;text-transform:uppercase;">Como funciona o RGPD para si?</p>
       <p>Os seus dados pessoais têm proteção acrescida;<br>

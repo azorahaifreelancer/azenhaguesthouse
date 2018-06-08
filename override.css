@@ -2,7 +2,6 @@
   content: "\f111";
   font-size: 50px;
   color: #f7981d;
-  margin-left: 2px;
 }
 
 .banner .arrow-nav {
@@ -43,11 +42,11 @@
 }
 
 .aceito {
-  font-size: 10px !important;
+  font-size: 12px !important;
 }
 
 .aceito a {
-  font-size: 10px !important;
+  font-size: 11px !important;
   color: #999;
   font-weight: bold;
 }
@@ -65,6 +64,20 @@
 .enviar {
   float: right;
 }
+
+
+
+.error {
+    color: red;
+}
+
+.success {
+    color: #ff9966;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
 
 @media (max-width: 767px) {
   .banner .arrow-nav i {
