@@ -91,4 +91,7 @@
     text-align: center !important;
     padding-left: 0 !important;
   }
+  .aceito a {
+    font-size: 10px !important;
+  }
 }
