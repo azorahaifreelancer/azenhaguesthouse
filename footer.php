@@ -11,7 +11,7 @@
                     <ul class="list-unstyled">
                         <li><a href="quartos.php">Quartos</a></li>
                         <li><a href="casa.php">A Casa</a></li>
-                        <li><a href="galeria.php">Galeria</a></li>
+                        <li><a href="gallery.php">Galeria</a></li>
                         <li><a href="azul.php">Quarto Azul</a></li>
                         <li><a href="amarelo.php">Quarto Amarelo</a></li>
                         <li><a href="verde.php">Quarto Verde</a></li>

@@ -46,7 +46,7 @@
             $message_body .=  "$key: $value\n";
         }
 
-        $to = 'azorahaifreelancer@gmail.com';
+        $to = 'info@azenhaguesthouse.com';
         $subject = 'Contact Form Submit';
         if (mail($to, $subject, $message)){
             $success = "Message sent, thank you for contacting us!";
