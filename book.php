@@ -45,7 +45,7 @@
         foreach ($_POST as $key => $value){
             $message_body .=  "$key: $value\n";
         }
-
+        $from = 'info@azenhaguesthouse.com';
         $to = 'info@azenhaguesthouse.com';
         $subject = 'Azenha GuestHouse';
         if (mail($to, $subject, $message)){
