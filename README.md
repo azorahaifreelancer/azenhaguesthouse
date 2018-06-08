@@ -31,3 +31,6 @@ Repositório do site da Azenha GuetHouse, Turismo Rural
 - [Instagram](https://www.instagram.com/azorahaifreelancer/)
 - [Twitter](https://twitter.com/azorfreelancer.com/)
 - [Facebook](https://www.facebook.com/azorahaifreelancer/)
+
+
+39.431707,-9.215150

@@ -6,10 +6,6 @@ jQuery(document).ready(function($) {
     });
     });
 
-
-
-
-
 // uniform
     $(function () {
     $('input[type="checkbox"], input[type="radio"], select').uniform();
@@ -32,8 +28,6 @@ var wow = new WOW(
   }
 );
 wow.init();
-
-
 
 
 $('.carousel').swipe( {
