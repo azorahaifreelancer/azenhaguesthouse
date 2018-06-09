@@ -209,24 +209,9 @@
 </div>
 
 </div>
-
-<!-- contatcos -->
-<div class="container">
-<!-- form -->
-<div class="contact">
-
-
-
-       <div class="row">
-
-        <div class="col-sm-12">
-        <div id="map" class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1540.8086522729209!2d-9.215382418585218!3d39.43277754165361!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-PT!2spt!4v1493653254016" width="100%" height="300" frameborder="0"></iframe>
-        </div>
-       </div>
 </div>
-</div>
-<!-- form -->
+<div id="map">
+
 
 </div>
 

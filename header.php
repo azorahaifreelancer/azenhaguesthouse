@@ -28,7 +28,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.php"><img src="images/logo.png"  alt="holiday crown" style="max-width: 180px;"></a>
+      <a class="navbar-brand" href="index.php"><img src="images/logo.svg"  alt="holiday crown"></a>
     </div>
     <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">

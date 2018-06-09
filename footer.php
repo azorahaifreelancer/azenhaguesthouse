@@ -54,6 +54,7 @@
     <a class="close">×</a>
     <!-- The modal dialog, which will be used to wrap the lightbox content -->
 </div>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzjxk3ez3AdKy8Sb_ZjddqIb75KrvWL_g&callback=initMap"></script>
 <script src="assets/jquery.js"></script>
 <!-- wow script -->
 <script src="assets/wow/wow.min.js"></script>

@@ -39,3 +39,35 @@ $('.carousel').swipe( {
      },
      allowPageScroll: 'vertical'
  });
+
+//mapa
+ var map;
+
+ function initMap() {
+     map = new google.maps.Map(document.getElementById('map'), {
+         center: {
+             lat: 39.433690,
+             lng: -9.215190
+         },
+         zoom: 17.3
+     });
+     marker = new google.maps.Marker({
+         map: map,
+         draggable: true,
+         animation: google.maps.Animation.DROP,
+         position: {
+             lat: 39.433300,
+             lng: -9.215990
+         },
+         icon: "images/marker.svg"
+     });
+     marker.addListener('click', toggleBounce);
+ }
+
+ function toggleBounce() {
+     if (marker.getAnimation() !== null) {
+         marker.setAnimation(null);
+     } else {
+         marker.setAnimation(google.maps.Animation.BOUNCE);
+     }
+ }
