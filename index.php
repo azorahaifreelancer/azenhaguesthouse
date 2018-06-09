@@ -7,9 +7,9 @@
     <div class="welcome-message">
         <div class="wrap-info">
             <div class="information">
-                <h1  class="animated fadeInDown">Azenha GuestHouse</h1>
-                <h2 class="animated fadeInUp">Turismo Rural - Foz do Arelho</h2>
-                <p class="animated fadeInUp">Quartos - Rooms - Chambres - Zimmer</p>
+                <h1  class="animated fadeInDown tituloTop">Azenha GuestHouse</h1>
+                <h2 class="animated fadeInUp tituloTop">Turismo Rural - Foz do Arelho</h2>
+                <p class="animated fadeInUp tituloTop">Quartos - Rooms - Chambres - Zimmer</p>
             </div>
             <a href="#information" class="arrow-nav scroll wowload fadeInDownBig"><i class="fa fa-angle-down"></i></a>
         </div>

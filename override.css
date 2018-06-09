@@ -80,6 +80,9 @@
 
 
 @media (max-width: 767px) {
+  .tituloTop {
+    display: none !important;
+  }
   .banner .arrow-nav i {
     line-height: 120% !important;
   }
@@ -92,6 +95,6 @@
     padding-left: 0 !important;
   }
   .aceito a {
-    font-size: 10px !important;
+    font-size: 9px !important;
   }
 }
