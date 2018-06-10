@@ -13,7 +13,7 @@ if(isset($_POST['template-contactform-submit'])){
 
 
 
-   mail("info@azenhaguesthouse.com, azorahaifreelancer@gmail.com",$message,"From:info@azenhaguesthouse.com");
+   mail("info@azenhaguesthouse.com, azorahaifreelancer@gmail.com, azenhaguesthouse@gmail.com",$message,"From:info@azenhaguesthouse.com");
 
    echo "<div style='z-index:-9999;height:100vh;width:100vw;background:#f1f1f1;position:absolute;'></div>";
    echo "<h3 style='font-weight:bold; color: green;'>ENVIADO COM SUCESSO</h3>";
