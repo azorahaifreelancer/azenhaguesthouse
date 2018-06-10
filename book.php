@@ -1,66 +1,39 @@
 
-  <?php
+<?php
 
-  // define variables and set to empty values
-  $name_error = $email_error = "";
-  $name = $email = $phone = $message = $success = "";
+if(isset($_POST['template-contactform-submit'])){
 
-  //form is submitted with POST method
-  if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    if (empty($_POST["name"])) {
-      $name_error = "Preencha com o seu nome";
-    } else {
-      $name = test_input($_POST["name"]);
-      // check if name only contains letters and whitespace
-      if (!preg_match("/^[a-zA-Z ]*$/",$name)) {
-        $name_error = "Apenas letras e espaços são permitidos";
-      }
-    }
+    $name = $_POST['template-contactform-name']."\r\n";
+    $email = $_POST['template-contactform-email']."\r\n";
+    $phone = $_POST['template-contactform-phone']."\r\n\r\n";
+    $message = 'Nome: '.$name.
+    'Email: '.$email.
+    'Telefone: '.$phone.
+     $_POST['template-contactform-message'];
 
-    if (empty($_POST["email"])) {
-      $email_error = "Preencha com o seu nome email";
-    } else {
-      $email = test_input($_POST["email"]);
-      // check if e-mail address is well-formed
-      if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        $email_error = "Formato inválido";
-      }
-    }
 
-    if (empty($_POST["phone"])) {
-      $phone = "";
-    } else {
-      $phone = test_input($_POST["phone"]);
-    }
 
-    if (empty($_POST["message"])) {
-      $message = "";
-    } else {
-      $message = test_input($_POST["message"]);
-    }
+   mail("info@azenhaguesthouse.com, azorahaifreelancer@gmail.com",$message,"From:info@azenhaguesthouse.com");
 
-    if ($name_error == '' and $email_error == '' ){
-        $message_body = '';
-        unset($_POST['submit']);
-        foreach ($_POST as $key => $value){
-            $message_body .=  "$key: $value\n";
-        }
-        $from = 'info@azenhaguesthouse.com';
-        $to = 'info@azenhaguesthouse.com';
-        $subject = 'Azenha GuestHouse';
-        if (mail($to, $subject, $message)){
-            $success = "Mensagem enviada, obrigado pelo contacto!";
-            $name = $email = $phone = $message = '';
-        }
-    }
+   echo "<div style='z-index:-9999;height:100vh;width:100vw;background:#f1f1f1;position:absolute;'></div>";
+   echo "<h3 style='font-weight:bold; color: green;'>ENVIADO COM SUCESSO</h3>";
+   echo "<h3 style='font-weight:bold; color: #f7981d;'>Nome : </h3>";
+   echo $name;
+   echo "<h3 style='font-weight:bold; color: #f7981d;'>Email : </h3>";
+   echo $email;
+   echo "<h3 style='font-weight:bold; color: #f7981d;'>Telefone : </h3>";
+   echo $phone;
+   echo "<h3 style='font-weight:bold; color: #f7981d;'>Mensagem : </h3>";
+   echo $message;
 
-  }
-
-  function test_input($data) {
-    $data = trim($data);
-    $data = stripslashes($data);
-    $data = htmlspecialchars($data);
-    return $data;
-  }
+   echo "<div style='height:100px;width:100vw;background:#f1f1f1;'>
+           <h3>Agradecemos a sua preferência</h3>
+           <h3 style='font-weight:bold; color: #f7981d;'>Em caso de Pedido de reserva:</h3>
+           <p>Será enviado um email com o pedido de tranferência de metade do valor da Reserva, o restante do pagamento é efectuado na Azenha GuestHouse, durante a sua estadia em dinheiro ou em transferência bancária.</p>
+             <button style='background:#f7981d;color:#ffffff!important;width:200px;height:50px;outline:none;'>
+               <a style='background:#f7981d;color:#ffffff!important;text-transform:uppercase;text-decoration:none; padding:10px;font-size:20px;' href='http://azenhaguesthouse.com'>Voltar</a>
+             </button>
+           </div>";
+}
 
 ?>

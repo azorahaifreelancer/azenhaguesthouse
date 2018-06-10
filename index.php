@@ -26,107 +26,24 @@
 </div>
 <div class="col-sm-5 col-md-4">
 <h3>Pedido de Reserva</h3>
-    <form role="form" class="wowload fadeInRight" method="post" action="<?= htmlspecialchars($_SERVER["PHP_SELF"]) ?>" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Por favor, indique que leu os nossos Termos e Condições, e Política de Privacidade e Proteção de Dados'); return false; }">
+<div class="email_sent" style="display:none;position:absolute;top:15px;left:35%;width:250px;height:100px;background-color:white;color:black;z-index:50;border-radius: 25px;border: 2px solid #2db2a6;">
+<div style="position:relative;margin:auto;width:180px;height:50px;top:40%;">
+    <p>Email enviado com sucesso</p>
+</div>
+</div>
+    <form role="form" class="wowload fadeInRight" id="template-contactform" name="template-contactform" action="book.php" method="post" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Por favor, indique que leu os nossos Termos e Condições, e Política de Privacidade e Proteção de Dados'); return false; }">
         <div class="form-group">
-            <input type="text" class="form-control" name="name" value="<?= $name ?>"  placeholder="Nome">
-            <span class="error"><?= $name_error ?></span>
+            <input type="text" class="form-control" id="template-contactform-name" name="template-contactform-name"  placeholder="Nome" required>
         </div>
         <div class="form-group">
-            <input type="text" class="form-control" name="email" value="<?= $email ?>"  placeholder="Email">
-            <span class="error"><?= $email_error ?></span>
+            <input type="email" class="form-control" id="template-contactform-email" name="template-contactform-email"  placeholder="Email" required>
         </div>
         <div class="form-group">
-            <input type="text" class="form-control" name="phone" value="<?= $phone ?>"  placeholder="Telefone">
+            <input type="number" class="form-control" id="template-contactform-phone" name="template-contactform-phone"  placeholder="Telefone">
         </div>
-          <!--
-          <div class="form-group">
-            <div class="row">
-              <div class="col-xs-6">
-              <select class="form-control" name="adultos">
-                <option>No. Adultos</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-              </select>
-              </div>
-              <div class="col-xs-6">
-              <select class="form-control" name="criancas">
-                <option>No. Crianças</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-              </select>
-              </div>
-            </div>
-          </div>
-
-          <div class="form-group">
-            <div class="row">
-              <div class="col-xs-4">
-                <select class="form-control col-sm-2" name="dia" id="expiry-month">
-                  <option>Dia</option>
-                  <option value="01">1</option>
-                  <option value="02">2</option>
-                  <option value="03">3</option>
-                  <option value="04">4</option>
-                  <option value="05">5</option>
-                  <option value="06">6</option>
-                  <option value="07">7</option>
-                  <option value="08">8</option>
-                  <option value="09">9</option>
-                  <option value="10">10</option>
-                  <option value="11">11</option>
-                  <option value="12">12</option>
-                  <option value="13">13</option>
-                  <option value="14">14</option>
-                  <option value="15">15</option>
-                  <option value="16">16</option>
-                  <option value="17">17</option>
-                  <option value="18">18</option>
-                  <option value="19">19</option>
-                  <option value="20">20</option>
-                  <option value="21">21</option>
-                  <option value="22">22</option>
-                  <option value="23">23</option>
-                  <option value="24">24</option>
-                  <option value="25">25</option>
-                  <option value="26">26</option>
-                  <option value="27">27</option>
-                  <option value="28">28</option>
-                  <option value="29">29</option>
-                  <option value="30">30</option>
-                  <option value="31">31</option>
-                </select>
-              </div>
-              <div class="col-xs-4">
-                <select class="form-control col-sm-2" name="mes">
-                  <option>Mês</option>
-                  <option value="Janeiro">Janeiro</option>
-                  <option value="Fevereiro">Fevereiro</option>
-                  <option value="Março">Março</option>
-                  <option value="Abril">Abril</option>
-                  <option value="Maio">Maio</option>
-                  <option value="Junho">Junho</option>
-                  <option value="Julho">Julho</option>
-                  <option value="Agosto">Agosto</option>
-                  <option value="Setembro">Setembro</option>
-                  <option value="Outubro">Outubro</option>
-                  <option value="Novembro">Novembro</option>
-                  <option value="Dezembro">Dezembro</option>
-                </select>
-              </div>
-              <div class="col-xs-4">
-                <select class="form-control" name="ano">
-                  <option>Ano</option>
-                  <option value="18">2018</option>
-                  <option value="19">2019</option>
-                </select>
-              </div>
-            </div>
-          </div>
-          -->
           <div class="form-group mensagem">
-              <textarea class="form-control"  placeholder="Messagem" rows="4" value="<?= $message ?>" name="mensagem"></textarea>
+              <textarea class="form-control" id="template-contactform-phone" name="template-contactform-message"  placeholder="Messagem" required></textarea>
           </div>
-
           <div class="form-group concordo">
             <div class="politicas">
             <input type="checkbox" name="checkbox" value="check" id="agree" /><span class="aceito">Li e aceito os<a href="terms.php"> Termos e Condições</a> e a <a href="policy.php">  Política de Privacidade.</a></span>
@@ -135,11 +52,9 @@
             <input type="checkbox" name="checkbox" value="check" id="agree" /><span class="aceito">Li e aceito as<a href="condicoes.php"> Condições de Reserva</a></span>
           </div>
           </div>
+        <button class="btn btn-default enviar" id="template-contactform-submit" name="template-contactform-submit" type="submit">Enviar</button>
 
-        <button class="btn btn-default enviar" id="contact-submit" type="submit" name="submit" data-submit="...Sending">Enviar</button>
-        <div class="success"><?= $success ?></div>
     </form>
-
 </div>
 </div>
 </div>
@@ -207,12 +122,6 @@
         </div>
     </div>
 </div>
-
 </div>
 </div>
-<div id="map">
-
-
-</div>
-
 <?php include 'footer.php';?>
