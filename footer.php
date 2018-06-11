@@ -43,59 +43,20 @@
 </footer>
 <div class="text-center copyright">Powered by <a href="https://www.instagram.com/nuno____santos/">nsantos</a></div>
 <a href="#home" class="toTop scroll"><i class="fa fa-angle-up"></i></a>
-<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
 <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
-    <!-- The container for the modal slides -->
     <div class="slides"></div>
-    <!-- Controls for the borderless lightbox -->
     <h3 class="title">title</h3>
     <a class="prev">‹</a>
     <a class="next">›</a>
     <a class="close">×</a>
-    <!-- The modal dialog, which will be used to wrap the lightbox content -->
 </div>
-
-<script type="application/javascript">
-   var name = document.getElementById("template-contactform-name");
-   var email = document.getElementById("template-contactform-email");
-   var phone = document.getElementById("template-contactform-phone");
-   var message = document.getElementById("template-contactform-message");
-   var mail = document.getElementsByClassName("email_sent")[0];
-   var mailSubmit = document.getElementById("template-contactform-submit");
-
-   function validateEmail(emailValue) {
-       var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-       return re.test(emailValue);
-   }
-
-   mailSubmit.onclick = function() {
-       if (name.value != '' && email.value != '' && phone.value != '' && message.value != '') {
-           if (validateEmail(email.value)) {
-               mail.style.display = "block";
-               setTimeout(function() {
-                   mail.style.display = "none";
-               }, 3000);
-           }
-
-       }
-   }
-
-</script>
 <script src="assets/jquery.js"></script>
-<!-- wow script -->
 <script src="assets/wow/wow.min.js"></script>
-<!-- uniform -->
 <script src="assets/uniform/js/jquery.uniform.js"></script>
-<!-- boostrap -->
 <script src="assets/bootstrap/js/bootstrap.js" type="text/javascript" ></script>
-<!-- jquery mobile -->
 <script src="assets/mobile/touchSwipe.min.js"></script>
-<!-- jquery mobile -->
 <script src="assets/respond/respond.js"></script>
-<!-- gallery -->
 <script src="assets/gallery/jquery.blueimp-gallery.min.js"></script>
-<!-- custom script -->
 <script src="assets/script.js"></script>
-
 </body>
 </html>

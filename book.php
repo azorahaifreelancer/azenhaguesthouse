@@ -6,6 +6,7 @@ if(isset($_POST['template-contactform-submit'])){
     $name = $_POST['template-contactform-name']."\r\n";
     $email = $_POST['template-contactform-email']."\r\n";
     $phone = $_POST['template-contactform-phone']."\r\n\r\n";
+    $subject = $_POST['template-contactform-subject'];
     $message = 'Nome: '.$name.
     'Email: '.$email.
     'Telefone: '.$phone.
@@ -13,7 +14,7 @@ if(isset($_POST['template-contactform-submit'])){
 
 
 
-   mail("info@azenhaguesthouse.com, azorahaifreelancer@gmail.com, azenhaguesthouse@gmail.com",$message,"From:info@azenhaguesthouse.com");
+   mail("info@azenhaguesthouse.com, azorahaifreelancer@gmail.com",$subject,$message,"From:info@azenhaguesthouse.com");
 
    echo "<div style='z-index:-9999;height:100vh;width:100vw;background:#f1f1f1;position:absolute;'></div>";
    echo "<h3 style='font-weight:bold; color: green;'>ENVIADO COM SUCESSO</h3>";
@@ -23,6 +24,8 @@ if(isset($_POST['template-contactform-submit'])){
    echo $email;
    echo "<h3 style='font-weight:bold; color: #f7981d;'>Telefone : </h3>";
    echo $phone;
+   echo "<h3 style='font-weight:bold; color: #f7981d;'>Assunto : </h3>";
+   echo $subject;
    echo "<h3 style='font-weight:bold; color: #f7981d;'>Mensagem : </h3>";
    echo $message;
 

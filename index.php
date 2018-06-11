@@ -19,45 +19,47 @@
 
 <!-- reservation-information -->
 <div id="information" class="spacer reserve-info ">
-<div class="container">
-<div class="row">
-<div class="col-sm-7 col-md-8">
-    <div class="embed-responsive embed-responsive-16by9 wowload fadeInLeft"><iframe  class="embed-responsive-item" src="https://www.youtube.com/embed/FxnD5AqFVzo" frameborder="0" allow="autoplay; encrypted-media" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-</div>
-<div class="col-sm-5 col-md-4">
-<h3>Pedido de Reserva</h3>
-<div class="email_sent" style="display:none;position:absolute;top:15px;left:35%;width:250px;height:100px;background-color:white;color:black;z-index:50;border-radius: 25px;border: 2px solid #2db2a6;">
-<div style="position:relative;margin:auto;width:180px;height:50px;top:40%;">
-    <p>Email enviado com sucesso</p>
-</div>
-</div>
-    <form role="form" class="wowload fadeInRight" id="template-contactform" name="template-contactform" action="book.php" method="post" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Por favor, indique que leu os nossos Termos e Condições, e Política de Privacidade e Proteção de Dados'); return false; }">
-        <div class="form-group">
-            <input type="text" class="form-control" id="template-contactform-name" name="template-contactform-name"  placeholder="Nome" required>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-7 col-md-8">
+          <div class="embed-responsive embed-responsive-16by9 wowload fadeInLeft"><iframe  class="embed-responsive-item" src="https://www.youtube.com/embed/FxnD5AqFVzo" frameborder="0" allow="autoplay; encrypted-media" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+      </div>
+      <div class="col-sm-5 col-md-4">
+        <h3>Pedido de Informação ou Reserva</h3>
+        <div class="email_sent" style="display:none;position:absolute;top:15px;left:35%;width:250px;height:100px;background-color:white;color:black;z-index:50;border-radius: 25px;border: 2px solid #2db2a6;">
+          <div style="position:relative;margin:auto;width:180px;height:50px;top:40%;">
+            <p>Email enviado com sucesso</p>
+          </div>
         </div>
-        <div class="form-group">
-            <input type="email" class="form-control" id="template-contactform-email" name="template-contactform-email"  placeholder="Email" required>
-        </div>
-        <div class="form-group">
-            <input type="number" class="form-control" id="template-contactform-phone" name="template-contactform-phone"  placeholder="Telefone">
-        </div>
+        <form role="form" class="wowload fadeInRight" id="template-contactform" name="template-contactform" action="book.php" method="post" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Por favor, indique que leu os nossos Termos e Condições, e Política de Privacidade e Proteção de Dados'); return false; }">
+          <div class="form-group">
+            <input type="text" class="form-control" id="template-contactform-name" name="template-contactform-name" value="" placeholder="Nome" required>
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" id="template-contactform-email" name="template-contactform-email" value="" placeholder="Email" required>
+          </div>
+          <div class="form-group">
+            <input type="number" class="form-control" id="template-contactform-phone" name="template-contactform-phone" value="" placeholder="Telefone">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" id="template-contactform-subject" name="template-contactform-subject" value="" placeholder="Assunto">
+          </div>
           <div class="form-group mensagem">
-              <textarea class="form-control" id="template-contactform-phone" name="template-contactform-message"  placeholder="Messagem" required></textarea>
+              <textarea class="form-control" id="template-contactform-message" name="template-contactform-message" value="" placeholder="Messagem" required></textarea>
           </div>
           <div class="form-group concordo">
             <div class="politicas">
             <input type="checkbox" name="checkbox" value="check" id="agree" /><span class="aceito">Li e aceito os<a href="terms.php"> Termos e Condições</a> e a <a href="policy.php">  Política de Privacidade.</a></span>
           </div>
             <div class="condicoes">
-            <input type="checkbox" name="checkbox" value="check" id="agree" /><span class="aceito">Li e aceito as<a href="condicoes.php"> Condições de Reserva</a></span>
+              <input type="checkbox" name="checkbox" value="check" id="agree" /><span class="aceito">Li e aceito as<a href="condicoes.php"> Condições de Reserva</a></span>
+            </div>
           </div>
-          </div>
-        <button class="btn btn-default enviar" id="template-contactform-submit" name="template-contactform-submit" type="submit">Enviar</button>
-
-    </form>
-</div>
-</div>
-</div>
+          <button class="btn btn-default enviar" id="template-contactform-submit" name="template-contactform-submit" type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </div>
 </div>
 </div>
 <!-- reservation-information -->
