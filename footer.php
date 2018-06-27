@@ -26,7 +26,7 @@
                       <i class="fa fa-home"></i>  7  Rua da Azenha
                          <p>Foz do Arelho<br>
                          PT 2500 450<br>
-                      <a target="_blank" href="https://goo.gl/maps/F6HYSkXJtwL2">PEDIR DIREÇAÕ - GPS</a><br>
+                      <a target="_blank" href="https://goo.gl/maps/F6HYSkXJtwL2">DIRECÇÕES MAPA - GPS</a><br>
                        LAT 39.431707
                       <br>
                        LNG -9.215150<br>

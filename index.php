@@ -39,7 +39,7 @@
             <input type="email" class="form-control" id="template-contactform-email" name="template-contactform-email" value="" placeholder="Email" required>
           </div>
           <div class="form-group">
-            <input type="number" class="form-control" id="template-contactform-phone" name="template-contactform-phone" value="" placeholder="Telefone">
+            <input type="tel" class="form-control" id="template-contactform-phone" name="template-contactform-phone" value="" placeholder="Telefone">
           </div>
           <div class="form-group">
             <input type="text" class="form-control" id="template-contactform-subject" name="template-contactform-subject" value="" placeholder="Assunto">
